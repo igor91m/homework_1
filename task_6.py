@@ -10,5 +10,5 @@ day = 0
 while a <= b:
     a *= 1.1
     day += 1
-    print(f"{day}-й день: {round(a, 2)}")
+    print(f"{day}-й день: {round(a, 2)} км")
 print(f"На {day} день спортсмен достиг результата - не менее {b} км.")
